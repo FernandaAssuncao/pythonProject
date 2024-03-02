@@ -1,0 +1,13 @@
+numero = int(input("Quantos numeros você quer na sequencia fibonat? "))
+cont = 3
+n1 = 0
+n2 = 1
+r = 0
+print("{} ->".format(n1), end='')
+print("{} ->".format(n2), end='')
+while cont <= numero:
+    r = n1 + n2
+    print("{} ->".format(r), end='')
+    n1 = n2
+    n2 = r
+    cont += 1

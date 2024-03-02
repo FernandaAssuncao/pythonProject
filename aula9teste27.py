@@ -1,0 +1,6 @@
+nome = str(input("digite seu nome completo: ")).strip()
+n = nome.split()
+print("=" * 40)
+print("Seu primeiro nome é: {}".format(n[0]))
+print("Seu segundo nome é: {}".format(n[len(n)-2]))
+print("=" * 40)

@@ -1,0 +1,5 @@
+frase = str(input("digite o nome da sua cidade: "))
+frase = frase.strip()
+frase = frase.lower()
+frase = frase.split()
+print("O nome da sua cidade começa com 'Santo'? {}".format("santo" in frase[0]))

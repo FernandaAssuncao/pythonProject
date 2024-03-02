@@ -1,0 +1,5 @@
+n1 = int(input("digite um valor: "))
+n2 = int(input("digite outro valor: "))
+print("A soma vale {}".format(n1+n2))
+print("A potencia do primeiro valor vale {}".format(n1**2))
+print("A potencia do segundo valor vale {}".format(n2**2))
